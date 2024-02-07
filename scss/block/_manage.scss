@@ -1,0 +1,106 @@
+.main_manage {
+    padding-top: 132px;
+}
+
+.main_manage__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_manage__title {
+    max-width: 445px;
+    color: #242D52;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.714px;
+    margin-bottom: 24px;
+}
+
+.main_manage__text {
+    max-width: 350px;
+    color: #242D52;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.main_manage__sub_title {
+    color: #242D52;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.286px;
+    margin-bottom: 19px;
+}
+
+.main_manage__sub_text {
+    max-width: 445px;
+    color: #242D52;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.main_manage__item {
+    padding: 6px 0 0 95px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.main_manage__btn {
+    position: absolute;
+    border-radius: 39px;
+    background-color: #F3603C;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.286px;
+    padding: 6px 23px 10px 23px;
+    top: 0px;
+    left: 0px;
+}
+
+@media screen and (max-width:900px) {
+    .main_manage__block{
+        flex-direction: column;
+    }
+    .main_manage__title{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .main_manage__sub_title{
+        background-color: #fff0ec ;
+        inset: 0;
+        z-index: -1;
+    }
+    .main_manage__text{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 54px;
+    }
+    .main_manage__list{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+@media screen and (max-width:576px) {
+    .main_manage__title{
+        font-size: 30px;
+        line-height: 45px;
+        
+    }
+    .main_manage__text{
+        font-size: 14px ;
+        line-height: 28px;
+    }
+    .main_manage__sub_title{
+        background-color: #fff0ec ;
+        inset: 0;
+        z-index: -1;
+    }
+}
